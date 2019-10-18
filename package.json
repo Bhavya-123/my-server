@@ -1,13 +1,26 @@
 {
-  "name": "my-server",
+  "name": "package.json",
   "version": "1.0.0",
-  "description": "This is a json package",
-  "main": "Example node server",
+  "description": "Test server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "start": "node server.js"
-
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavya-123/my-server.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "node"
+  ],
+  "author": "Bhavya Deepthi Gorrepati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavya-123/my-server/issues"
+  },
+  "homepage": "https://github.com/Bhavya-123/my-server#readme"
 }
